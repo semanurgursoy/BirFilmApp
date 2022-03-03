@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "36674177796",
+    "project_id": "birfilm-1f",
+    "firebase_url": "https://birfilm-1f-default-rtdb.europe-west1.firebasedatabase.app",
+    "storage_bucket": "birfilm-1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36674177796:android:9fb0998d14f8fd61f29e51",
+        "android_client_info": {
+          "package_name": "com.sg.birfilm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36674177796-otlv7qjtjbnbdavcpfib1is3mv12p1j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUUFZuESVIwbGymBs-CUDJ05-TcBMbsCo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36674177796-otlv7qjtjbnbdavcpfib1is3mv12p1j1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/nav_home_icon"
+        android:title="@string/nav_home"
+        />
+    <item
+        android:id="@+id/search_user"
+        android:icon="@drawable/nav_people_icon"
+        android:title="@string/nav_search_user"
+        />
+    <item
+        android:id="@+id/search_movie"
+        android:icon="@drawable/nav_search_icon"
+        android:title="@string/nav_search_movie"
+        />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/nav_not_icon"
+        android:title="@string/nav_notif"
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/nav_account_icon"
+        android:title="Profile"
+        />
+</menu>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pc_profile_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/pc_txt_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kullanıcı adı"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/pc_post_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+
+        <RelativeLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/pc_like_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/popcorn_box"/>
+
+            <ImageView
+                android:id="@+id/pc_comment_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_comment_foreground"
+                android:layout_toEndOf="@id/pc_like_photo"
+                android:layout_marginStart="10dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pc_txt_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beğeniler"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@android:color/primary_text_dark"/>
+
+        <TextView
+            android:id="@+id/pc_txt_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gönderen"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@android:color/primary_text_dark"/>
+
+        <TextView
+            android:id="@+id/pc_txt_criticism"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İnceleme Yazısı"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@android:color/primary_text_dark"/>
+
+        <TextView
+            android:id="@+id/pc_txt_extract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alıntı"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@android:color/primary_text_dark"/>
+
+        <TextView
+            android:id="@+id/pc_txt_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yorumlar"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textColorHint="@android:color/primary_text_light"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
